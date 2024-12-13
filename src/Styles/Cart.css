@@ -1,0 +1,40 @@
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.cart-item div {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  margin: 0 0.5rem;
+}
+.cart-item .minus:hover{
+  background-color: rgba(255, 251, 0, 0.801);
+  border-radius: 5px;
+}
+.cart-item .plus:hover{
+  background-color: rgba(0, 255, 94, 0.801);
+  border-radius: 5px;
+}
+.cart-item .btn1:hover{
+  background-color: rgba(255, 0, 174, 0.801);
+  border-radius: 5px;
+}
+.btn2:hover{
+  background-color: rgb(0, 255, 64);
+  border-radius: 5px;
+}
+
